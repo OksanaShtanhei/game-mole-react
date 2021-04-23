@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.square{
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+.board{
+  margin: 10px auto;
+  display: flex;
+  flex-flow:wrap;
+  justify-content: center;
+  align-content: center;
+  width: 318px;
+  height: 318px;
+}
+.mole{
+  background-color: #000;
+}
+.score-text{
+  color: white;
+  background: black;
+}
